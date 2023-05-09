@@ -11,13 +11,19 @@ function validate() {
     var passwordRegex = /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}$/;
 
     if (fname == "") {
-        alert("Please enter your fname");
+        alert("Please enter your name");
         fname.focus();
         return false;
     }
 
     if (email == "") {
         alert("Please enter an e-mail address.");
+        email.focus();
+        return false;
+    }
+
+    if (password.length < 8) {
+        alert("Please enter atleast 8 characters.");
         email.focus();
         return false;
     }
