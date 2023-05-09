@@ -234,3 +234,15 @@ header .banner-text hr {
 h2 {
     font-family: 'Times New Roman', Times, serif;
 }
+
+.strong {
+    color: green;
+  }
+
+  .medium {
+    color: orange;
+  }
+
+  .poor {
+    color: red;
+  }

@@ -43,13 +43,17 @@
 		<div class="header-text">
 			Login Form
 		</div>
-        <input placeholder="Email Address or Username" type="text"> 
-        <input placeholder="Password" type="password"> 
+    <form onsubmit="validateLogin()" name="signup">
+        <input placeholder="Email Address" type="text" name="email" id="email" required> 
+        <input placeholder="Password" type="password" name="pswd" required> 
         <span> <a href="#"> Forgot Password?</a></span> &nbsp;&nbsp;&nbsp;&nbsp;
         <span> <a href="signup.html">Create new Account</a></span> <br>
         <center>
         <button class="login">Login</button>&nbsp;&nbsp;&nbsp;&nbsp;
         <button class="signup">Sign Up</button></center>
+        </div>
+    </form>
 	</div>
+  <script src="script.js"></script>
 </body>
 </html>
